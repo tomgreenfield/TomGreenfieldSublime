@@ -29,3 +29,5 @@ Settings
 -------
 
  * `Preferences.sublime-settings` file
+ * Settings for [Pretty JSON](https://github.com/dzhibas/SublimePrettyJson)
+ * Settings for [SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements)
