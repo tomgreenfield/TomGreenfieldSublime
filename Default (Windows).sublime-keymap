@@ -15,8 +15,14 @@
 	{ "keys": ["f11"], "command": "insert_snippet", "args": { "contents": "’" } },
 	{ "keys": ["ctrl+f11"], "command": "insert_snippet", "args": { "contents": "‘" } },
 	{ "keys": ["ctrl+shift+2"], "command": "insert_snippet", "args": { "contents": "“$SELECTION”" } },
-	{ "keys": ["ctrl+shift+4"], "command": "insert_snippet", "args": { "contents": "<span class='${1}'>$SELECTION</span>" } },
+	{ "keys": ["ctrl+shift+4"], "command": "insert_snippet", "args": { "contents": "<span class=\"${1}\">$SELECTION</span>" } },
+	{ "keys": ["ctrl+shift+4"], "command": "insert_snippet", "args": { "contents": "<span class='${1}'>$SELECTION</span>" },
+		"context": [{ "key": "selector", "operator": "equal", "operand": "source.json" }]
+	},
 	{ "keys": ["ctrl+shift+5"], "command": "insert_snippet", "args": { "contents": "<strong>$SELECTION</strong>" } },
-	{ "keys": ["ctrl+shift+backquote"], "command": "insert_snippet", "args": { "contents": "<a href='${1:about:blank}' target='_blank'>$SELECTION</a>" } },
+	{ "keys": ["ctrl+shift+backquote"], "command": "insert_snippet", "args": { "contents": "<a href=\"${1:about:blank}\" target=\"_blank\">$SELECTION</a>"} },
+	{ "keys": ["ctrl+shift+backquote"], "command": "insert_snippet", "args": { "contents": "<a href='${1:about:blank}' target='_blank'>$SELECTION</a>"},
+		"context": [{ "key": "selector", "operator": "equal", "operand": "source.json" }]
+	},
 	{ "keys": ["ctrl+t"], "command": "insert_snippet", "args": { "name": "Packages/XML/long-tag.sublime-snippet" } }
 ]
