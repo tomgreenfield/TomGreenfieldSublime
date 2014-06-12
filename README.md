@@ -30,3 +30,4 @@ This is a collection of my settings for Sublime Text. Includes:
  * `Preferences.sublime-settings` file
  * Settings for [Pretty JSON](https://github.com/dzhibas/SublimePrettyJson)
  * Settings for [SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements)
+ * Settings for [TortoiseSVN](https://github.com/dexbol/sublime-TortoiseSVN)
