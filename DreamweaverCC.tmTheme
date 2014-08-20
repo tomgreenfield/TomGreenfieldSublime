@@ -3,14 +3,12 @@
 <plist version="1.0">
 <!-- A DreamweaverCC theme for Sublime Text 2 and 3 -->
 <dict>
-	<key>comment</key>
-	<string>Modified from https://github.com/chonocom/Sublime-Text-Theme-DreamweaverCC. Added support for JSON and XML.</string>
 	<key>author</key>
 	<string>Chono Hegelund - http://chono.com - chonohegelund@gmail.com</string>
 	<key>name</key>
-	<string>DreamJSON</string>
+	<string>DreamveaverCC</string>
 	<key>version</key>
-	<string>0.0.2</string>
+	<string>v.1.1</string>
 	<key>settings</key>
 	<array>
 		<dict>
@@ -119,7 +117,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>XML Strings (added)</string>
+			<string>XML Strings</string>
 			<key>scope</key>
 			<string>text.xml meta.tag string.quoted</string>
 			<key>settings</key>
@@ -191,9 +189,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JavaScript String</string>
+			<string>JavaScript/JSON String</string>
 			<key>scope</key>
-			<string>source.js string</string>
+			<string>source.js string, source.json</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -202,33 +200,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JSON String (added)</string>
+			<string>JavaScript/JSON Number</string>
 			<key>scope</key>
-			<string>source.json string</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#00F</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>JavaScript Number (modified)</string>
-			<key>scope</key>
-			<string>source.js constant.numeric</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#F00</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>JSON Number (added)</string>
-			<key>scope</key>
-			<string>source.json constant.numeric</string>
+			<string>source.js constant.numeric, source.json constant.numeric</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -250,22 +224,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JavaScript ReservedKeywords</string>
+			<string>JavaScript/JSON ReservedKeywords</string>
 			<key>scope</key>
-			<string>source.js keyword, source.js storage, source.js constant, source.js keyword.operator.new</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>bold</string>
-				<key>foreground</key>
-				<string>#009</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>JSON ReservedKeywords (added)</string>
-			<key>scope</key>
-			<string>source.json keyword, source.json storage, source.json constant, source.json keyword.operator.new</string>
+			<string>source.js keyword, source.js storage, source.js constant, source.js keyword.operator.new, source.json keyword, source.json storage, source.json constant, source.json keyword.operator.new</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -547,7 +508,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Invalid (added)</string>
+			<string>Invalid</string>
 			<key>scope</key>
 			<string>invalid</string>
 			<key>settings</key>

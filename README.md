@@ -14,14 +14,14 @@ This is a collection of my settings for Sublime Text. Includes:
 * <kbd>Ctrl</kbd>+<kbd>⇧ Shift</kbd>+<kbd>2</kbd>: Insert speech marks `“``”`
 * <kbd>Ctrl</kbd>+<kbd>⇧ Shift</kbd>+<kbd>4</kbd>: Insert span tag* `<span class="">``</span>`
 * <kbd>Ctrl</kbd>+<kbd>⇧ Shift</kbd>+<kbd>5</kbd>: Insert strong tag `<strong>``</strong>`
-* <kbd>Ctrl</kbd>+<kbd>⇧ Shift</kbd>+<kbd>'</kbd>: Insert anchor tag* `<a href="about:blank" target="_blank"``</a>`
+* <kbd>Ctrl</kbd>+<kbd>⇧ Shift</kbd>+<kbd>'</kbd>: Insert anchor tag* `<a href="about:blank" target="_blank">``</a>`
 * <kbd>Ctrl</kbd>+<kbd>T</kbd>: Wrap tag
 
 \* Single quotes in JSON files
 
 ## Colour scheme
 
- * DreamJSON theme, based on [DreamweaverCC theme](https://github.com/chonocom/Sublime-Text-Theme-DreamweaverCC)
+ * [DreamweaverCC theme](https://github.com/chonocom/Sublime-Text-Theme-DreamweaverCC)
  * Use CSS colouring for LESS
  * Use HTML colouring for Handlebars templates
  
