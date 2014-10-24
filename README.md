@@ -23,7 +23,6 @@ This is a collection of my settings for Sublime Text. Includes:
 
  * [DreamweaverCC theme](https://github.com/chonocom/Sublime-Text-Theme-DreamweaverCC)
  * Use CSS colouring for LESS
- * Use HTML colouring for Handlebars templates
  
 ## Settings
 
