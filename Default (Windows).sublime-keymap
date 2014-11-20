@@ -12,6 +12,7 @@
 
 	{ "keys": ["shift+enter"], "command": "insert_snippet", "args": { "contents": "<br>" } },
 	{ "keys": ["ctrl+shift+-"], "command": "insert_snippet", "args": { "contents": "–" } },
+	{ "keys": ["ctrl+shift+0"], "command": "insert_snippet", "args": { "contents": "​" } },
 	{ "keys": ["f11"], "command": "insert_snippet", "args": { "contents": "’" } },
 	{ "keys": ["ctrl+f11"], "command": "insert_snippet", "args": { "contents": "‘" } },
 	{ "keys": ["ctrl+shift+2"], "command": "insert_snippet", "args": { "contents": "“$SELECTION”" } },
