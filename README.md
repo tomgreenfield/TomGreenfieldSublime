@@ -4,6 +4,7 @@ This is a collection of my settings for Sublime Text. Includes:
 
 * <kbd>Ctrl</kbd>+<kbd>W</kbd>: Toggle visibility of whitespace characters
 * <kbd>Ctrl</kbd>+<kbd>K</kbd>,<kbd>K</kbd>: Cancel running task (requires [Adapt Helper](https://github.com/tomgreenfield/AdaptHelper))
+* <kbd>F12</kbd>: Open current file with default browser (requires [SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements))
 * <kbd>Ctrl</kbd>+<kbd>F12</kbd>: Open current file with Internet Explorer (requires [SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements))
 * <kbd>⊞ Win</kbd>+<kbd>↵ Enter</kbd>: Open current file location (requires [SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements))
 * <kbd>Ctrl</kbd>+<kbd>⇧ Shift</kbd>+<kbd>↵ Enter</kbd>: SVN commit (requires [TortoiseSVN](https://github.com/dexbol/sublime-TortoiseSVN))
