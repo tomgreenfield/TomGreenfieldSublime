@@ -3,7 +3,7 @@
 
 	// other packages
 
-	{ "keys": ["ctrl+k", "ctrl+k"], "command": "kill" },
+	{ "keys": ["ctrl+k", "ctrl+k"], "command": "exec", "args": { "kill": true } },
 	{ "keys": ["f12"], "command": "side_bar_open_in_browser" },
 	{ "keys": ["ctrl+f12"], "command": "side_bar_files_open_with", "args": { "application": "C:\\Program Files\\Internet Explorer\\iexplore.exe" } },
 	{ "keys": ["super+enter"], "command": "side_bar_reveal" },
