@@ -12,7 +12,7 @@
 	"indent_subsequent_lines": false,
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
-	"match_brackets": false,
+	"match_brackets_content": false,
 	"match_selection": false,
 	"match_tags": false,
 	"move_to_limit_on_up_down": true,
