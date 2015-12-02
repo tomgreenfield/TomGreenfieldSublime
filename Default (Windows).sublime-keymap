@@ -5,8 +5,9 @@
 	
 	// other packages
 
-	{ "keys": ["f12"], "command": "side_bar_open_in_browser" },
-	{ "keys": ["ctrl+f12"], "command": "side_bar_files_open_with", "args": { "application": "C:\\Program Files\\Internet Explorer\\iexplore.exe" } },
+	{ "keys": ["f12"], "command": "side_bar_open_in_browser", "args": { "browser": "firefox" } },
+	{ "keys": ["ctrl+f12"], "command": "side_bar_open_in_browser", "args": { "browser": "ie" } },
+	{ "keys": ["shift+f12"], "command": "side_bar_open_in_browser", "args": { "browser": "chrome" } },
 	{ "keys": ["super+enter"], "command": "side_bar_reveal" },
 	{ "keys": ["ctrl+shift+enter"], "command": "svn_commit" },
 
