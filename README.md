@@ -8,7 +8,7 @@ This is a collection of my settings for Sublime Text. Includes:
 * <kbd>F12</kbd>: Open current file with Firefox (requires [SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements))
 * <kbd>Ctrl</kbd>+<kbd>F12</kbd>: Open current file with Internet Explorer (requires [SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements))
 * <kbd>⇧ Shift</kbd>+<kbd>F12</kbd>: Open current file with Chrome (requires [SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements))
-* <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kdb>R</kbd>: Open current file location (requires [SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements))
+* <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>R</kbd>: Open current file location (requires [SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements))
 * <kbd>Ctrl</kbd>+<kbd>⇧ Shift</kbd>+<kbd>↵ Enter</kbd>: SVN commit (requires [TortoiseSVN](https://github.com/dexbol/sublime-TortoiseSVN))
 * <kbd>⇧ Shift</kbd>+<kbd>↵ Enter</kbd>: Insert line break `<br>`
 * <kbd>Ctrl</kbd>+<kbd>⇧ Shift</kbd>+<kbd>-</kbd>: Insert en dash `–`
