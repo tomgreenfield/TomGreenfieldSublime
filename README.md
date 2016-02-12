@@ -5,6 +5,7 @@ This is a collection of my settings for Sublime Text. Includes:
 * <kbd>Ctrl</kbd>+<kbd>W</kbd>: Toggle visibility of whitespace characters
 * <kbd>Ctrl</kbd>+<kbd>K</kbd>,<kbd>K</kbd>: Cancel running task
 * <kbd>Ctrl</kbd>+<kbd>⇧ Shift</kbd>+<kbd>O</kbd>: Show output panel
+* <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>P</kbd>: Quick switch project
 * <kbd>F12</kbd>: Open current file with Firefox (requires [SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements))
 * <kbd>Ctrl</kbd>+<kbd>F12</kbd>: Open current file with Internet Explorer (requires [SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements))
 * <kbd>⇧ Shift</kbd>+<kbd>F12</kbd>: Open current file with Chrome (requires [SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements))
