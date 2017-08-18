@@ -1,12 +1,19 @@
 {
 	"always_prompt_for_file_reload": true,
-	"auto_complete_selector": "source - comment, meta.tag - punctuation.definition.tag.begin, text.xml",
+	"auto_complete_selector": "meta.tag - punctuation.definition.tag.begin, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc, text.xml",
 	"caret_extra_width": 1,
 	"caret_style": "blink",
 	"color_scheme": "Packages/TomGreenfieldSublime/DreamweaverCC.tmTheme",
 	"copy_with_empty_selection": false,
 	"draw_indent_guides": false,
-	"draw_white_space": "none",
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"node_modules"
+	],
 	"font_size": 9,
 	"hot_exit": false,
 	"indent_subsequent_lines": false,
@@ -14,11 +21,11 @@
 	"line_padding_top": 1,
 	"match_brackets_content": false,
 	"match_selection": false,
-	"match_tags": false,
 	"move_to_limit_on_up_down": true,
 	"remember_open_files": true,
 	"scroll_past_end": false,
 	"scroll_speed": 0,
+	"shift_tab_unindent": true,
 	"show_encoding": true,
 	"tab_completion": false,
 	"word_wrap": true
