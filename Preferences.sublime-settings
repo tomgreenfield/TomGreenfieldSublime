@@ -1,7 +1,6 @@
 {
 	"always_prompt_for_file_reload": true,
 	"auto_complete_selector": "meta.tag - punctuation.definition.tag.begin, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc, text.xml",
-	"caret_extra_width": 1,
 	"caret_style": "blink",
 	"color_scheme": "Packages/TomGreenfieldSublime/DreamweaverCC.tmTheme",
 	"copy_with_empty_selection": false,
@@ -17,7 +16,6 @@
 	"font_size": 9,
 	"hot_exit": false,
 	"indent_subsequent_lines": false,
-	"line_padding_bottom": 1,
 	"line_padding_top": 1,
 	"match_brackets_content": false,
 	"match_selection": false,
