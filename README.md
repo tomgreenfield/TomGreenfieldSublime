@@ -27,7 +27,7 @@ This is a collection of my settings for Sublime Text. Includes:
 ## Colour scheme
 
  * [DreamweaverCC theme](https://github.com/chonocom/Sublime-Text-Theme-DreamweaverCC)
- * Use CSS colouring for LESS
+ * Use JSON colouring for \*.schema
  
 ## Settings
 
