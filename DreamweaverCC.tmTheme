@@ -8,7 +8,7 @@
 	<key>name</key>
 	<string>DreamveaverCC</string>
 	<key>version</key>
-	<string>v.1.1</string>
+	<string>v.1.2</string>
 	<key>settings</key>
 	<array>
 		<dict>
@@ -309,12 +309,12 @@
 		</dict>
 
 
-		<!-- CSS -->
+		<!-- CSS/Less -->
 		<dict>
 			<key>name</key>
-			<string>CSS base</string>
+			<string>CSS/Less base</string>
 			<key>scope</key>
-			<string>source.css</string>
+			<string>source.css, source.less</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -323,9 +323,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS Properties</string>
+			<string>CSS/Less Properties</string>
 			<key>scope</key>
-			<string>source.css meta.property-name</string>
+			<string>source.css meta.property-name, source.less meta.property-name</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -334,9 +334,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS Value</string>
+			<string>CSS/Less Value</string>
 			<key>scope</key>
-			<string>source.css meta.property-value</string>
+			<string>source.css meta.property-value, source.less meta.property-value</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -345,9 +345,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS String</string>
+			<string>CSS/Less String</string>
 			<key>scope</key>
-			<string>source.css string</string>
+			<string>source.css string, source.less string</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -356,9 +356,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS @import</string>
+			<string>CSS/Less @import</string>
 			<key>scope</key>
-			<string>source.css meta.at-rule.import - string</string>
+			<string>source.css meta.at-rule.import - string, source.less meta.at-rule.import - string</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -369,9 +369,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS @media</string>
+			<string>CSS/Less @media</string>
 			<key>scope</key>
-			<string>source.css meta.at-rule.media</string>
+			<string>source.css meta.at-rule.media, source.less meta.at-rule.media</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -382,9 +382,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS important</string>
+			<string>CSS/Less important</string>
 			<key>scope</key>
-			<string>source.css keyword.other.important</string>
+			<string>source.css keyword.other.important, source.less keyword.other.important</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
