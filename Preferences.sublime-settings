@@ -4,7 +4,6 @@
 	"caret_style": "blink",
 	"color_scheme": "Packages/TomGreenfieldSublime/DreamweaverCC.tmTheme",
 	"copy_with_empty_selection": false,
-	"draw_indent_guides": false,
 	"folder_exclude_patterns":
 	[
 		".svn",
@@ -16,6 +15,7 @@
 	"font_size": 9,
 	"hot_exit": false,
 	"indent_subsequent_lines": false,
+	"line_padding_bottom": 1,
 	"line_padding_top": 1,
 	"match_brackets_content": false,
 	"match_selection": false,
