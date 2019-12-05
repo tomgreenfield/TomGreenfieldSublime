@@ -6,10 +6,10 @@ This is a collection of my settings for Sublime Text. Includes:
 * <kbd>Ctrl</kbd>+<kbd>K</kbd>,<kbd>K</kbd>: Cancel running task
 * <kbd>Ctrl</kbd>+<kbd>⇧ Shift</kbd>+<kbd>O</kbd>: Show output panel
 * <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>P</kbd>: Quick switch project
+* <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>R</kbd>: Open containing folder
 * <kbd>F12</kbd>: Open current file with Firefox (requires [SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements))
 * <kbd>Ctrl</kbd>+<kbd>F12</kbd>: Open current file with Internet Explorer (requires [SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements))
 * <kbd>⇧ Shift</kbd>+<kbd>F12</kbd>: Open current file with Chrome (requires [SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements))
-* <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>R</kbd>: Open current file location (requires [SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements))
 * <kbd>Ctrl</kbd>+<kbd>⇧ Shift</kbd>+<kbd>↵ Enter</kbd>: SVN commit (requires [TortoiseSVN](https://github.com/dexbol/sublime-TortoiseSVN))
 * <kbd>⇧ Shift</kbd>+<kbd>↵ Enter</kbd>: Insert line break `<br>`
 * <kbd>Ctrl</kbd>+<kbd>0</kbd>: Insert zero-width space
