@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Dreamweaver Classic</string>
+	<key>settings</key>
+	<array>
+		<dict>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FFFFFF</string>
+				<key>caret</key>
+				<string>#000000</string>
+				<key>foreground</key>
+				<string>#000000</string>
+				<key>invisibles</key>
+				<string>#999999</string>
+				<key>lineHighlight</key>
+				<string>#CCCCCC</string>
+				<key>selection</key>
+				<string>#3399FF</string>
+				<key>selectionForeground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Comment</string>
+			<key>scope</key>
+			<string>comment</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#999999</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>String</string>
+			<key>scope</key>
+			<string>string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0000FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Number</string>
+			<key>scope</key>
+			<string>constant.numeric</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#FF0000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Constant</string>
+			<key>scope</key>
+			<string>constant</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#000099</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Keyword</string>
+			<key>scope</key>
+			<string>keyword</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#000099</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Storage</string>
+			<key>scope</key>
+			<string>storage</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#000099</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Tag</string>
+			<key>scope</key>
+			<string>meta.tag</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#000099</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Library class/function</string>
+			<key>scope</key>
+			<string>support.class, support.function</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#009999</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Library constant/type</string>
+			<key>scope</key>
+			<string>support.constant, support.type</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#990099</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Invalid</string>
+			<key>scope</key>
+			<string>invalid</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FFFF00</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON string</string>
+			<key>scope</key>
+			<string>meta.structure.dictionary.json string.quoted.double.json</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0000FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bracket</string>
+			<key>scope</key>
+			<string>meta.brace, punctuation.definition.arguments, punctuation.definition.block, punctuation.definition.binding-pattern, punctuation.definition.inheritance, punctuation.definition.parameters, punctuation.section, punctuation.separator.colon</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#000099</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Function keyword</string>
+			<key>scope</key>
+			<string>storage.type.function</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#000000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Operator</string>
+			<key>scope</key>
+			<string>keyword.operator.arithmetic, keyword.operator.assignment, keyword.operator.comparison, keyword.operator.decrement, keyword.operator.increment, keyword.operator.logical, keyword.operator.ternary, punctuation.separator.js, punctuation.separator.key-value.js, punctuation.separator.mapping.key-value</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#0000FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Regular expression</string>
+			<key>scope</key>
+			<string>string.regexp</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#006600</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Template expression</string>
+			<key>scope</key>
+			<string>meta.template.expression</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#000000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Variable language</string>
+			<key>scope</key>
+			<string>variable.language</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#000099</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS</string>
+			<key>scope</key>
+			<string>source.css, source.less</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF00FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS selector/bracket</string>
+			<key>scope</key>
+			<string>meta.selector.css constant.numeric, meta.selector.css keyword.operator, source.css.less constant.numeric, source.css.less keyword.operator, keyword.control.logical.operator.less, keyword.other.pseudo-class, keyword.other.unit, source.css punctuation.section, source.less punctuation.section, meta.property-list.css punctuation.section, meta.brace.round.css</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#FF00FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS string</string>
+			<key>scope</key>
+			<string>source.css string, source.less string, string keyword.operator.less</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#006600</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Important</string>
+			<key>scope</key>
+			<string>keyword.other.important</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#FF0000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Property name</string>
+			<key>scope</key>
+			<string>support.type.property-name</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#000099</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Property value</string>
+			<key>scope</key>
+			<string>constant.other.color, meta.property-value, meta.property-value constant.numeric,
+meta.property-value keyword.operator, meta.property-value keyword.other, meta.property-value keyword.other.unit, meta.property-value meta.brace.round.css, meta.property-value support.function, meta.property-value support.constant, meta.property-value support.type, meta.property-value.css punctuation.section</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#0000FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>@import</string>
+			<key>scope</key>
+			<string>keyword.control.at-rule.import, meta.at-rule.import, meta.at-rule.import keyword.operator.logical, meta.at-rule.import keyword.operator.logic.media, meta.at-rule.import meta.brace.round.css, meta.at-rule.import punctuation.definition.parameters, meta.at-rule.import punctuation.section, meta.at-rule.import support.constant.media, meta.at-rule.import support.constant.property-value, meta.at-rule.import support.type.property-name.media</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#01ABA9</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>@import string</string>
+			<key>scope</key>
+			<string>meta.at-rule.import string</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#006600</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>@media</string>
+			<key>scope</key>
+			<string>keyword.control.at-rule.media, keyword.operator.logic.media, meta.at-rule.media.css, meta.at-rule.media constant.numeric, meta.at-rule.media.header keyword.operator, meta.at-rule.media.header keyword.operator.logical, meta.at-rule.media.css keyword.other.unit, meta.at-rule.media.header keyword.other.unit, meta.at-rule.media punctuation.definition.parameters, meta.at-rule.media punctuation.section, meta.at-rule.media.header punctuation.separator, support.constant.media, support.constant.media-type, support.type.property-name.media</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#990000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Anchor</string>
+			<key>scope</key>
+			<string>meta.tag.inline.a</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#006600</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Document type declaration</string>
+			<key>scope</key>
+			<string>constant.language.doctype, keyword.declaration, keyword.doctype, keyword.other.doctype, meta.tag.sgml.doctype keyword, variable.language.documentroot</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Entity</string>
+			<key>scope</key>
+			<string>constant.character.entity</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#000000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Form</string>
+			<key>scope</key>
+			<string>meta.tag.block.form, meta.tag.inline.form, meta.tag.structure.form, meta.tag.structure.button, meta.tag.structure.datalist, meta.tag.structure.fieldset, meta.tag.structure.input, meta.tag.structure.label, meta.tag.structure.legend, meta.tag.structure.meter, meta.tag.structure.optgroup, meta.tag.structure.option, meta.tag.structure.output, meta.tag.structure.progress, meta.tag.structure.select, meta.tag.structure.template, meta.tag.structure.textarea</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF9900</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Image</string>
+			<key>scope</key>
+			<string>meta.tag.object.img</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#990099</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Inline JavaScript</string>
+			<key>scope</key>
+			<string>text.html source.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#000000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Script</string>
+			<key>scope</key>
+			<string>meta.tag.script, meta.tag.metadata.script</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#990000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Style</string>
+			<key>scope</key>
+			<string>meta.tag.style, meta.tag.metadata.style</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#990099</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Style string</string>
+			<key>scope</key>
+			<string>meta.tag.style string, meta.tag.metadata.style string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#006600</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Table</string>
+			<key>scope</key>
+			<string>meta.tag.inline.table, meta.tag.structure.table, meta.tag.structure.thead, meta.tag.structure.tr, meta.tag.structure.td</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#009999</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>XML string</string>
+			<key>scope</key>
+			<string>text.xml string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#006600</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP bracket</string>
+			<key>scope</key>
+			<string>source.php punctuation.definition.arguments, source.php punctuation.definition.begin, source.php punctuation.definition.class, source.php punctuation.definition.end, source.php punctuation.section</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#000099</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP comment</string>
+			<key>scope</key>
+			<string>source.php comment, keyword.other.phpdoc</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#FF9911</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP constant</string>
+			<key>scope</key>
+			<string>source.php support.constant, constant.character.escape.php</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#000000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP keyword/storage</string>
+			<key>scope</key>
+			<string>constant.language.php, support.function.construct.php, source.php keyword, source.php storage</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#006600</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP operator/function</string>
+			<key>scope</key>
+			<string>punctuation.accessor.arrow.php, source.php keyword.operator, source.php support.function, storage.type.function.php</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#0000FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP string / regular expression</string>
+			<key>scope</key>
+			<string>source.php string, source.php string.regexp, keyword.operator.regexp.php, source.regexp.php constant, source.regexp.php keyword.operator</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#CC0000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP tag</string>
+			<key>scope</key>
+			<string>meta.embedded.block.php punctuation.section.embedded</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#FF0000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP variable</string>
+			<key>scope</key>
+			<string>source.php variable.language, source.php variable.other, variable.parameter.php</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#0066FF</string>
+			</dict>
+		</dict>
+	</array>
+	<key>uuid</key>
+	<string>6910D8D1-7EBF-471D-954B-4E774B96744C</string>
+</dict>
+</plist>
