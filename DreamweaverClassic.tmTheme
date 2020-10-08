@@ -291,8 +291,7 @@
 			<key>name</key>
 			<string>Property value</string>
 			<key>scope</key>
-			<string>constant.other.color, meta.property-value, meta.property-value constant.numeric,
-meta.property-value keyword.operator, meta.property-value keyword.other, meta.property-value keyword.other.unit, meta.property-value meta.brace.round.css, meta.property-value support.function, meta.property-value support.constant, meta.property-value support.type, meta.property-value.css punctuation.section</string>
+			<string>constant.other.color, meta.property-value, meta.property-value constant.numeric, meta.property-value keyword.operator, meta.property-value keyword.other, meta.property-value keyword.other.unit, meta.property-value meta.brace.round.css, meta.property-value support.function, meta.property-value support.constant, meta.property-value support.type, meta.property-value.css punctuation.section</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
