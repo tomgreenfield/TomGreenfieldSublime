@@ -147,7 +147,7 @@
 			<key>name</key>
 			<string>JSON string</string>
 			<key>scope</key>
-			<string>meta.structure.dictionary.json string.quoted.double.json</string>
+			<string>meta.structure.dictionary.json string.quoted.double.json, support.type.property-name.json</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -158,7 +158,7 @@
 			<key>name</key>
 			<string>Bracket</string>
 			<key>scope</key>
-			<string>meta.brace, punctuation.definition.arguments, punctuation.definition.block, punctuation.definition.binding-pattern, punctuation.definition.inheritance, punctuation.definition.parameters, punctuation.section, punctuation.separator.colon</string>
+			<string>meta.brace, punctuation.definition.arguments, punctuation.definition.array, punctuation.definition.block, punctuation.definition.binding-pattern, punctuation.definition.dictionary, punctuation.definition.inheritance, punctuation.definition.parameters, punctuation.section, punctuation.separator.colon</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -184,7 +184,7 @@
 			<key>name</key>
 			<string>Operator</string>
 			<key>scope</key>
-			<string>keyword.operator.arithmetic, keyword.operator.assignment, keyword.operator.comparison, keyword.operator.decrement, keyword.operator.increment, keyword.operator.logical, keyword.operator.ternary, punctuation.separator.js, punctuation.separator.key-value.js, punctuation.separator.mapping.key-value</string>
+			<string>keyword.operator.arithmetic, keyword.operator.assignment, keyword.operator.comparison, keyword.operator.decrement, keyword.operator.increment, keyword.operator.logical, keyword.operator.ternary, punctuation.definition.section, punctuation.separator.js, punctuation.separator.key-value.js, punctuation.separator.dictionary.key-value, punctuation.separator.mapping.key-value</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
