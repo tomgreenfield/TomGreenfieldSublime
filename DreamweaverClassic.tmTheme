@@ -18,7 +18,7 @@
 				<key>invisibles</key>
 				<string>#999999</string>
 				<key>lineHighlight</key>
-				<string>#CCCCCC</string>
+				<string>#E6E6E6</string>
 				<key>selection</key>
 				<string>#3399FF</string>
 				<key>selectionForeground</key>
@@ -182,6 +182,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Line number</string>
+			<key>scope</key>
+			<string>constant.numeric.line-number</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#000000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Operator</string>
 			<key>scope</key>
 			<string>keyword.operator.arithmetic, keyword.operator.assignment, keyword.operator.comparison, keyword.operator.decrement, keyword.operator.increment, keyword.operator.logical, keyword.operator.ternary, punctuation.definition.section, punctuation.separator.js, punctuation.separator.key-value.js, punctuation.separator.dictionary.key-value, punctuation.separator.mapping.key-value</string>
@@ -197,9 +208,11 @@
 			<key>name</key>
 			<string>Regular expression</string>
 			<key>scope</key>
-			<string>string.regexp</string>
+			<string>string.regexp, string.regexp constant, string.regexp keyword</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string></string>
 				<key>foreground</key>
 				<string>#006600</string>
 			</dict>
@@ -243,7 +256,7 @@
 			<key>name</key>
 			<string>CSS selector/bracket</string>
 			<key>scope</key>
-			<string>meta.selector.css constant.numeric, meta.selector.css keyword.operator, source.css.less constant.numeric, source.css.less keyword.operator, keyword.control.logical.operator.less, keyword.other.pseudo-class, keyword.other.unit, source.css punctuation.section, source.less punctuation.section, meta.property-list.css punctuation.section, meta.brace.round.css</string>
+			<string>meta.selector.css constant.numeric, meta.selector.css keyword.operator, meta.selector.css support.constant, meta.selector.css support.type.property-name, source.css.less constant.numeric, source.css.less keyword.operator, source.css.less support.constant, keyword.control.logical.operator.less, keyword.other.pseudo-class, keyword.other.unit, source.css punctuation.section, source.less punctuation.section, meta.property-list.css punctuation.section, meta.brace.round.css</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -490,7 +503,7 @@
 			<key>name</key>
 			<string>PHP constant</string>
 			<key>scope</key>
-			<string>source.php support.constant, constant.character.escape.php</string>
+			<string>source.php constant, source.php support.constant</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
