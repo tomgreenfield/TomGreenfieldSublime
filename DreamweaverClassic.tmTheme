@@ -158,7 +158,7 @@
 			<key>name</key>
 			<string>Bracket</string>
 			<key>scope</key>
-			<string>meta.brace, punctuation.definition.arguments, punctuation.definition.array, punctuation.definition.block, punctuation.definition.binding-pattern, punctuation.definition.dictionary, punctuation.definition.inheritance, punctuation.definition.parameters, punctuation.section, punctuation.separator.colon</string>
+			<string>meta.brace, punctuation.definition.arguments, punctuation.definition.array, punctuation.definition.block, punctuation.definition.binding-pattern, punctuation.definition.dictionary, punctuation.definition.inheritance, punctuation.definition.parameters, punctuation.definition.template-expression, punctuation.section, punctuation.separator.colon</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -171,7 +171,7 @@
 			<key>name</key>
 			<string>Function keyword</string>
 			<key>scope</key>
-			<string>storage.type.function</string>
+			<string>keyword.declaration.function, storage.type.function</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -256,7 +256,7 @@
 			<key>name</key>
 			<string>CSS selector/bracket</string>
 			<key>scope</key>
-			<string>meta.selector.css constant.numeric, meta.selector.css keyword.operator, meta.selector.css support.constant, meta.selector.css support.type.property-name, source.css.less constant, source.css.less constant.numeric, source.css.less keyword.operator, source.css.less support.constant, source.css.less support.function, keyword.control.logical.operator.less, keyword.other.pseudo-class, keyword.other.unit, source.css punctuation.section, source.less punctuation.section, meta.property-list.css punctuation.section, meta.brace.round.css</string>
+			<string>meta.property-name support.type.custom-property, meta.selector.css constant.numeric, meta.selector.css keyword.operator, meta.selector.css meta.function.parameters string, meta.selector.css support.constant, meta.selector.css support.type.property-name, source.css.less constant, source.css.less constant.numeric, source.css.less keyword.operator, source.css.less support.constant, source.css.less support.function, keyword.control.logical.operator.less, keyword.other.pseudo-class, keyword.other.unit, source.css punctuation.section, source.less punctuation.section, meta.property-list.css punctuation.section, meta.brace.round.css</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -304,7 +304,7 @@
 			<key>name</key>
 			<string>Property value</string>
 			<key>scope</key>
-			<string>meta.property-value, meta.property-value constant, meta.property-value constant.numeric, meta.property-value keyword.operator, meta.property-value keyword.other, meta.property-value keyword.other.unit, meta.property-value meta.brace.round.css, meta.property-value support.function, meta.property-value support.constant, meta.property-value support.type, meta.property-value.css punctuation.section</string>
+			<string>meta.property-value, meta.property-value constant, meta.property-value constant.numeric, meta.property-value meta.function-call string, meta.property-value keyword.operator, meta.property-value keyword.other, meta.property-value keyword.other.unit, meta.property-value meta.brace.round.css, meta.property-value support.function, meta.property-value support.constant, meta.property-value support.type, meta.property-value.css punctuation.section</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -317,7 +317,7 @@
 			<key>name</key>
 			<string>@import</string>
 			<key>scope</key>
-			<string>keyword.control.at-rule.import, meta.at-rule.import, meta.at-rule.import keyword.operator.logical, meta.at-rule.import keyword.operator.logic.media, meta.at-rule.import meta.brace.round.css, meta.at-rule.import punctuation.definition.parameters, meta.at-rule.import punctuation.section, meta.at-rule.import support.constant.media, meta.at-rule.import support.constant.property-value, meta.at-rule.import support.type.property-name.media</string>
+			<string>meta.at-rule.import, meta.at-rule.import keyword.control, meta.at-rule.import keyword.operator.logical, meta.at-rule.import keyword.operator.logic, meta.at-rule.import keyword.operator.logic.media, meta.at-rule.import meta.brace.round.css, meta.at-rule.import punctuation.definition.parameters, meta.at-rule.import punctuation.section, meta.at-rule.import support.constant.media, meta.at-rule.import support.constant.property-value, meta.at-rule.import support.type.property-name, meta.at-rule.import support.type.property-name.media</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -343,7 +343,7 @@
 			<key>name</key>
 			<string>@media</string>
 			<key>scope</key>
-			<string>keyword.control.at-rule.media, keyword.operator.logic.media, meta.at-rule.media.css, meta.at-rule.media constant.numeric, meta.at-rule.media.header keyword.operator, meta.at-rule.media.header keyword.operator.logical, meta.at-rule.media.css keyword.other.unit, meta.at-rule.media.header keyword.other.unit, meta.at-rule.media punctuation.definition.parameters, meta.at-rule.media punctuation.section, meta.at-rule.media.header punctuation.separator, support.constant.media, support.constant.media-type, support.type.property-name.media</string>
+			<string>keyword.operator.logic.media, meta.at-rule.media constant.numeric, meta.at-rule.media keyword.control, meta.at-rule.media keyword.operator, meta.at-rule.media.header keyword.operator, meta.at-rule.media.header keyword.operator.logical, meta.at-rule.media.css keyword.other.unit, meta.at-rule.media.header keyword.other.unit, meta.at-rule.media punctuation.definition.parameters, meta.at-rule.media.header punctuation.separator, meta.at-rule.media variable.other.less, punctuation.section.media, source.less meta.at-rule.media, support.constant.media, support.constant.media-type, support.type.property-name.media</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -367,7 +367,7 @@
 			<key>name</key>
 			<string>Document type declaration</string>
 			<key>scope</key>
-			<string>constant.language.doctype, keyword.declaration, keyword.doctype, keyword.other.doctype, meta.tag.sgml.doctype keyword, variable.language.documentroot</string>
+			<string>constant.language.doctype, keyword.doctype, keyword.other.doctype, meta.tag.sgml.doctype keyword, meta.tag.sgml.doctype storage, variable.language.documentroot</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -455,7 +455,7 @@
 			<key>name</key>
 			<string>Table</string>
 			<key>scope</key>
-			<string>meta.tag.inline.table, meta.tag.structure.table, meta.tag.structure.thead, meta.tag.structure.tr, meta.tag.structure.td</string>
+			<string>meta.tag.inline.table, meta.tag.structure.caption, meta.tag.structure.col, meta.tag.structure.colgroup, meta.tag.structure.table, meta.tag.structure.tbody, meta.tag.structure.td, meta.tag.structure.tfoot, meta.tag.structure.th, meta.tag.structure.thead, meta.tag.structure.tr</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
