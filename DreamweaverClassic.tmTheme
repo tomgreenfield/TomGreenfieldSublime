@@ -477,7 +477,7 @@
 			<key>name</key>
 			<string>PHP bracket</string>
 			<key>scope</key>
-			<string>source.php punctuation.definition.arguments, source.php punctuation.definition.begin, source.php punctuation.definition.class, source.php punctuation.definition.end, source.php punctuation.section</string>
+			<string>source.php punctuation.definition.arguments, source.php punctuation.definition.begin, source.php punctuation.definition.class, source.php punctuation.definition.end, source.php punctuation.definition.parameters, source.php punctuation.section</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
