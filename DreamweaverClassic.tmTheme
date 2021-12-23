@@ -245,7 +245,7 @@
 			<key>name</key>
 			<string>CSS</string>
 			<key>scope</key>
-			<string>source.css, source.less</string>
+			<string>source.css, source.less, source.scss</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -256,7 +256,7 @@
 			<key>name</key>
 			<string>CSS selector/bracket</string>
 			<key>scope</key>
-			<string>meta.property-name support.type.custom-property, meta.selector.css constant.numeric, meta.selector.css keyword.operator, meta.selector.css meta.function.parameters string, meta.selector.css support.constant, meta.selector.css support.type.property-name, source.css.less constant, source.css.less constant.numeric, source.css.less keyword.operator, source.css.less support.constant, source.css.less support.function, keyword.control.logical.operator.less, keyword.other.pseudo-class, keyword.other.unit, source.css punctuation.section, source.less punctuation.section, meta.property-list.css punctuation.section, meta.brace.round.css</string>
+			<string>meta.brace.round.css, meta.property-list.css punctuation.section, meta.property-name support.type.custom-property, meta.selector.css constant.numeric, meta.selector.css keyword.operator, meta.selector.css meta.function.parameters string, meta.selector.css support.constant, meta.selector.css support.type.property-name, keyword.control.logical.operator.less, keyword.other.pseudo-class, keyword.other.unit, source.css punctuation.section, source.css.less constant, source.css.less constant.numeric, source.css.less keyword.operator, source.css.less support.constant, source.css.less support.function, source.css.scss constant.numeric, source.css.scss keyword.operator, source.css.scss keyword.operator.comparison, source.css.scss punctuation.definition.parameters, source.less constant, source.less constant.numeric, source.less punctuation.section, source.scss constant.numeric, source.scss punctuation.section</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -269,7 +269,7 @@
 			<key>name</key>
 			<string>CSS string</string>
 			<key>scope</key>
-			<string>source.css string, source.less string, string keyword.operator.less</string>
+			<string>source.css string, source.less string, source.scss string, string keyword.operator.less</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -293,7 +293,7 @@
 			<key>name</key>
 			<string>Property name</string>
 			<key>scope</key>
-			<string>support.type.property-name</string>
+			<string>support.type.property-name, support.type.vendored.property-name, support.type.vendor-prefix</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -304,7 +304,7 @@
 			<key>name</key>
 			<string>Property value</string>
 			<key>scope</key>
-			<string>meta.property-value, meta.property-value constant, meta.property-value constant.numeric, meta.property-value meta.function-call string, meta.property-value keyword.operator, meta.property-value keyword.other, meta.property-value keyword.other.unit, meta.property-value meta.brace.round.css, meta.property-value support.function, meta.property-value support.constant, meta.property-value support.type, meta.property-value.css punctuation.section</string>
+			<string>meta.definition.variable.scss constant, meta.definition.variable.scss constant.numeric, meta.definition.variable.scss meta.function-call string, meta.definition.variable.scss keyword.operator, meta.definition.variable.scss keyword.other, meta.definition.variable.scss keyword.other.unit, meta.definition.variable.scss meta.brace.round.css, meta.definition.variable.scss support.function, meta.definition.variable.scss support.constant, meta.definition.variable.scss support.type, meta.property-value, meta.property-value constant, meta.property-value constant.numeric, meta.property-value meta.function-call string, meta.property-value keyword.operator, meta.property-value keyword.other, meta.property-value keyword.other.unit, meta.property-value meta.brace.round.css, meta.property-value support.function, meta.property-value support.constant, meta.property-value support.type, meta.property-value.css punctuation.section, meta.property-value.scss punctuation.section</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -343,7 +343,7 @@
 			<key>name</key>
 			<string>@media</string>
 			<key>scope</key>
-			<string>keyword.operator.logic.media, meta.at-rule.media constant.numeric, meta.at-rule.media keyword.control, meta.at-rule.media keyword.operator, meta.at-rule.media.header keyword.operator, meta.at-rule.media.header keyword.operator.logical, meta.at-rule.media.css keyword.other.unit, meta.at-rule.media.header keyword.other.unit, meta.at-rule.media punctuation.definition.parameters, meta.at-rule.media.header punctuation.separator, meta.at-rule.media variable.other.less, punctuation.section.media, source.less meta.at-rule.media, support.constant.media, support.constant.media-type, support.type.property-name.media</string>
+			<string>keyword.operator.logic.media, meta.at-rule.media.scss, meta.at-rule.media constant.numeric, meta.at-rule.media.scss constant.numeric, meta.at-rule.media keyword.control, meta.at-rule.media keyword.operator, meta.at-rule.media keyword.operator.logical, meta.at-rule.media.header keyword.operator, meta.at-rule.media.header keyword.operator.logical, meta.at-rule.media.css keyword.other.unit, meta.at-rule.media.header keyword.other.unit, meta.at-rule.media.scss keyword.other.unit, meta.at-rule.media.scss meta.property-value, meta.at-rule.media punctuation.definition.parameters, meta.at-rule.media.header punctuation.separator, meta.at-rule.media variable.other.less, punctuation.section.media, source.less meta.at-rule.media, source.scss meta.at-rule.media, support.constant.media, support.constant.media-type, support.type.property-name.media</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
